@@ -1,0 +1,1 @@
+/usr/bin/c++  -std=c++11 -pthread   CMakeFiles/client.dir/client.cpp.o CMakeFiles/client.dir/newQUIC.cpp.o  -o client   -L/home/leon/Desktop/combine/combine/IBC/IBCdemo/quic_0421/quiche/target/release  -Wl,-rpath,/home/leon/Desktop/combine/combine/IBC/IBCdemo/quic_0421/quiche/target/release -lquiche 
