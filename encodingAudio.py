@@ -13,7 +13,7 @@ sample_rate_hz = ia.sample_rate
 num_channels = 1
 bitrate = 3200
 enable_dtx = False
-model_path_cstr = b"lyra/lyra/model_coeffs"
+model_path_cstr = b"model_coeffs"
 
 # Load the correct version of libstdc++.so.6
 libstdcpp_path = "/usr/lib/x86_64-linux-gnu/libstdc++.so.6"
