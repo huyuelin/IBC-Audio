@@ -25,9 +25,9 @@ def run_audio_system(mode="run", remote_ip="127.0.0.1", remote_port="1114", loca
 
     test=Queue()
 
-    pipe_path = "quic_0421/build"
-    svideopipe_path = "quic_0421/build/svideopipe"
-    cvideopipe_path = "quic_0421/build/cvideopipe"
+    pipe_path = "build"
+    svideopipe_path = "build/svideopipe"
+    cvideopipe_path = "build/cvideopipe"
     # 创建管道
     if not os.path.exists(svideopipe_path):
         os.mkfifo(svideopipe_path)
